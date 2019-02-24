@@ -115,7 +115,7 @@ footer{padding:50px 0}
 #lead-content{position:relative;transform:none;left:auto;top:auto}
 #lead-content h1{font-size:3em}
 #lead-content h2{font-size:1.75em}
-#about{text-align:center}
+#about{text-align}
 #about p{text-align:left}}@media only screen and (max-width: 768px){header{position:fixed;display:none;z-index:999;animation:none;bottom:0;height:100%}
 #mobile-menu-open,#mobile-menu-close{display:block}
 #menu{height:100%;overflow-y:auto;box-shadow:none;border-radius:0;width:100%}

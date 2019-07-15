@@ -31,7 +31,10 @@
                     <a href="#skills">Skills</a>
             </li>
             <li>
-                    <a href="#directory">Projects</a>
+                    <a href="#directory">WIP</a>
+            </li>
+            <li>
+                    <a href="#directoryproject">Completed</a>
             </li>
             <li>
                 <a href="#contact">Contact</a>
@@ -85,12 +88,77 @@
     <!-- End #skills -->
 
     <div id="directory" class="background-alt">
-        <h2 class="heading">Projects</h2>
+        <h2 class="heading">Current Projects (WIP) </h2>
+        <div class="container">
+            <div class="row">
+
+                <div class="project shadow-large">
+                        <div class="project-image">
+                            <img src="../images/coding/instagram.jpg" width=300px/>
+                        </div>
+
+                        <div class="project-info">
+                            <h3>Instagram Caption Generator</h3>
+                            <p>
+                                This is a project to try and create a Instagram caption generator by training a neural network to associate phrases/captions
+                                with certain objects within the image provided. This process will involve web scraping (to get training data), some neural model
+                                to convert the images to a word description (image classification) and then a neural model to convert an image to an actual caption
+                                with an intermediary step of realizing what the image consists of.
+                            </p>
+                            <a href="https://github.com/szeng7/instagram-caption-generator" target="_blank">View</a>
+                        </div>
+
+                </div>
+
+                <div class="project shadow-large">
+                        <div class="project-image">
+                            <img src="../images/coding/bilingualism.jpg" width=300px/>
+                        </div>
+
+                        <div class="project-info">
+                            <h3>Bilingualism Transfer Learning</h3>
+                            <p>
+                                This projects explores the idea of bilingual speakers being better at language-related tasks
+                                (specifically novel word processing). It then tries to expand this to language-related tasks for
+                                neural models, which is done through transfer learning. A model will be trained on a
+                                novel word processing task in a more morphologically rich language (in this case, Finnish) before
+                                it is then trained and tested on another language (morphologically poorer, in this case,
+                                English).
+                            </p>
+                            <a href="https://github.com/szeng7/bilingualism-transfer-learning" target="_blank">View</a>
+                        </div>
+
+                </div>
+
+                <div class="project shadow-large">
+                        <div class="project-image">
+                            <img src="../images/coding/tetris.jpeg" width=300px/>
+                        </div>
+
+                        <div class="project-info">
+                            <h3>Tetris</h3>
+                            <p>
+                                This is a simple implementation of the game, Tetris, which is to be used for training a model on how to best play Tetris.
+                                The game itself is coded using PyGame, a Python wrapper for the SDL library, designed for writing video games. The model
+                                will be trained on a variety of heuristics to allow the model to learn different playing techniques and strategies.
+                            </p>
+                            <a href="https://github.com/szeng7/tetris-ai" target="_blank">View</a>
+                        </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- End #directory -->
+
+    <div id="directory" class="background-alt">
+        <h2 class="heading">Completed Projects</h2>
         <div class="container">
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="../images/coding/parser.png" width=300px/>
+                        <img src="../images/coding/parser.png" height=300px width=300px/>
                     </div>
 
                     <div class="project-info">
@@ -105,7 +173,7 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="../images/coding/amazon.png" width=300px />
+                        <img src="../images/coding/amazon.png" height=300px width=300px />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
@@ -120,7 +188,7 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="../images/coding/foodlab.png" width=300px />
+                        <img src="../images/coding/foodlab.png" height=300px width=300px />
                     </div>
 
                     <div class="project-info">

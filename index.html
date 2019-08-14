@@ -14,204 +14,229 @@
     <link href="css/styles.css" rel="stylesheet">
 </head>
 
-<body>
-    <div id="mobile-menu-open" class="shadow-large">
-        <i class="fa fa-bars" aria-hidden="true"></i>
+<body onload="myFunction()" style="margin:0;">
+
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+
     </div>
-    <!-- End #mobile-menu-toggle -->
-    <header class="sticky">
-        <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+        <div id="mobile-menu-open" class="shadow-large">
+            <i class="fa fa-bars" aria-hidden="true"></i>
         </div>
-        <ul id="menu" class="shadow">
-            <li>
-                <a href="#about">About</a>
-            </li>
-            <li>
-                <a href="#experience">Highlights</a>
-            </li>
-            <li>
-                <a href="#directory">Directory</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
-    </header>
-    <!-- End header -->
+        <!-- End #mobile-menu-toggle -->
+        <header class="sticky">
+            <div id="mobile-menu-close">
+                <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <ul id="menu" class="shadow">
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#experience">Highlights</a>
+                </li>
+                <li>
+                    <a href="#directory">Directory</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </header>
+        <!-- End header -->
 
-    <div id="lead">
-        <div id="lead-content">
-            <h1>Simon Zeng</h1>
-            <h2> Natural Language Processing . Data Analytics </h2>
-            <a href="resume/SimonZengResume.pdf" download="SimonZengResume.pdf" class="btn-rounded-white">Download Resume</a>
+        <div id="lead">
+            <div id="lead-content">
+                <h1>Simon Zeng</h1>
+                <h2> Natural Language Processing . Data Analytics. Software Developing. </h2>
+                <a href="resume/SimonZengResume.pdf" download="SimonZengResume.pdf" class="btn-rounded-white">Download Resume</a>
+            </div>
+            <!-- End #lead-content -->
+
+            <div id="lead-overlay"></div>
+
+            <div id="lead-down">
+                <span>
+                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                </span>
+            </div>
+            <!-- End #lead-down -->
         </div>
-        <!-- End #lead-content -->
+        <!-- End #lead -->
 
-        <div id="lead-overlay"></div>
-
-        <div id="lead-down">
-            <span>
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </span>
-        </div>
-        <!-- End #lead-down -->
-    </div>
-    <!-- End #lead -->
-
-    <div id="about">
-        <h2 class="heading"> About Me </h2>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h3>
-                    <img src="images/index/profpic.jpg" width=80%; max-width=300px; max-height=339.416px>
-                    </h3>
+        <div id="about">
+            <h2 class="heading"> About Me </h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3>
+                        <img src="images/index/profpic.jpg" width=80%; max-width=300px; max-height=339.416px>
+                        </h3>
+                    </div>
+                    <div class="col-md-8">
+                        <p>
+                            I am currently an undergraduate student at Johns Hopkins University studying
+                            Computer Science and Cognitive Science. My academics interests primarily revolve
+                            around Natural Language Processing, specifically in human language acquisition (and
+                            its application to computational models) and machine translation.
+                            I am always eager to learn more, especially in the fields listed above, so if you know of any pertinent point
+                            of contact, research paper/topic or opportunity, please let me know! <br> <br>
+                            Outside of academics, I particularly enjoy baking and cooking (a wide range of
+                            cuisines and styles but primarily sushi due to my experience being a sushi chef)
+                            as well as learning new languages. In the past few years, I have picked up some
+                            elementary French and Spanish while also furthering my proficiency in my native
+                            tongues of English and Mandarin Chinese. Another passion of mine is music. I have
+                            played piano and violin for most of my life and have recently learned the guitar and cello. <br> <br>
+                            Currently, I am also looking for a full-time position after graduation in order to further
+                            develop my skillset and gain experience in a developer environment with a product-centric focus.
+                        </p>
+                    </div>
                 </div>
-                <div class="col-md-8">
+            </div>
+        </div>
+        <!-- End #about -->
+
+        <div id="experience" class="background-alt">
+            <h2 class="heading">Highlights</h2>
+            <div id="experience-timeline">
+                <div data-date="May 2019 - August 2019">
+                    <h4>Visiting Researcher at the Human Language Technology Center of Excellence (HLTCOE)</h4>
                     <p>
-                        I am currently an undergraduate student at Johns Hopkins University studying Computer Science and Cognitive Science. My academics interests primarily revolve around Natural Language Processing, specifically in human language acquisition (and its application to computational models) and machine translation. I am always eager to learn more, especially in the fields listed above, so if you know of any pertinent point of contact, research paper/topic or opportunity, please let me know! <br> <br>
-                        Outside of academics, I particularly enjoy baking and cooking (a wide range of cuisines and styles but primarily sushi due to my experience being a sushi chef) as well as learning new languages. In the past few years, I have picked up some elementary French and Spanish while also furthering my proficiency in my native tongues of English and Mandarin Chinese. Another passion of mine is music. I have played piano and violin for most of my life and have recently learned the guitar and cello.
+                        Conducted research on named entity recognition (NER). <br> <br> Projects: Few shot entity typing
+                        and designing/constructing neural architectures for capturing document level ontologies and contexts
+                        to be used for multi-task learning with NER.
+                        <br> <br> <a href="resources/SCALE_Poster.pdf" download="SCALE_Poster.pdf"> Download Poster </a>
+                    </p>
+                </div>
+
+                <div data-date="Jan 2019 - May 2019">
+                    <h4>Research of the Effects of Bilingualism on Novel Word Processing and its Implications for Computational Sentence Processing</h4>
+                    <p>
+                        Performed research on the effects of language morphological richness on novel word processing with the intent to use this knowledge on
+                        cross-language transfer learning for neural models. <br> <br> Currently in the process of implementation, see Coding Projects page.
+                        <br> <br> <a href="resources/Effects of Bilingualism on Novel Word Processing and Implications for Computational Sentence Processing.pdf#start" download="Bilingualism.pdf"> Download Paper</a>
+                    </p>
+                </div>
+
+                <div data-date="Aug 2018 - May 2019">
+                    <h4>Research on the Usage of Hyperspectral Imaging in Food Allergen Detection </h4>
+                    <p>
+                        Was in charge of a design team sponsored by Textron System <br> <br> Project research was focused on utilizing
+                        spectral and spatial data of a food product to create a commercially viable device to be used for detecting the
+                        presence of food allergens. <a href="resources/P2D2_Poster.pdf" download="P2D2_Poster.pdf"> Download Poster</a>
+                        <br> <br><a href="resources/P2D2_Heatmaps.pdf" download="P2D2_Heatmaps.pdf"> See Heat Map Results</a>
                     </p>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- End #about -->
+        <!-- End #experience -->
 
-    <div id="experience" class="background-alt">
-        <h2 class="heading">Highlights</h2>
-        <div id="experience-timeline">
-            <div data-date="May 2019">
-                <h4>Research Scholar at the Human Language Technology Center of Excellence (HLTCOE)</h4>
-                <p>
-                    Started research on named entity recognition (NER). <br> <br> Project is specifically on few shot entity typing
-                    and designing/constructing neural architectures for capturing document level ontologies and contexts
-                </p>
-            </div>
+        <div id="directory" class="background-alt">
+            <h2 class="heading">Directory</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                            <img src="images/index/neural300.png" height=300px width=300px/>
+                        </div>
 
-            <div data-date="Jan 2019 - May 2019">
-                <h4>Research of the Effects of Bilingualism on Novel Word Processing and its Implications for Computational Sentence Processing</h4>
-                <p>
-                    Performed research on the effects of language morphological richness on novel word processing with the intent to use this knowledge on
-                    cross-language transfer learning for neural models. Currently in the process of implementation, see Coding Projects page.
-                     <br> <br> <a href="resources/Effects of Bilingualism on Novel Word Processing and Implications for Computational Sentence Processing.pdf#start" download="Bilingualism.pdf"> Download Paper</a>
-                </p>
-            </div>
+                        <div class="project-info">
+                            <h3>Coding Projects</h3>
+                            <p>
+                                A page of all of the coding-related projects that I have worked on in the past, ranging from Android apps to language parsers to games. Projects that I am currently working on and will work on in the future are included as well.
+                            </p>
+                            <a href="coding/index.html">View</a>
+                        </div>
 
-            <div data-date="Aug 2018 - May 2019">
-                <h4>Research on the Usage of Hyperspectral Imaging in Food Allergen Detection </h4>
-                <p>
-                    Was in charge of a design team sponsored by Textron System <br> <br> Project research was focused on utilizing
-                    spectral and spatial data of a food product to create a commercially viable device to be used for detecting the
-                    presence of food allergens. <br> <br> <a href="resources/P2D2_Poster.pdf" download="P2D2_Poster.pdf"> Download Poster</a>
-                    <br> <br><a href="resources/P2D2_Heatmaps.pdf" download="P2D2_Heatmaps.pdf"> See Heat Map Results</a>
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- End #experience -->
-
-    <div id="directory" class="background-alt">
-        <h2 class="heading">Directory</h2>
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/index/neural300.png" height=300px width=300px/>
                     </div>
 
-                    <div class="project-info">
-                        <h3>Coding Projects</h3>
+
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                            <img src="images/index/speech.jpg" height=300px width=300px/>
+                        </div>
+
+                        <div class="project-info">
+                            <h3>Academic Articles</h3>
+                            <p>
+                                A database of academic articles that I've read. They pertain to fields that I am interested in (Computational Linguistics, Natural Language Processing, etc), whether it be of foundational articles or more current ones. Links to them are included as well as summaries and my thoughts regarding them.
+                            </p>
+                            <a href="academia/index.html">View</a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                            <img src="images/index/cookingpic.JPG" height=300px width=300px/>
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>Cooking & Baking</h3>
+                            <p>
+                                Recipes that I've used and loved as well as pictures of what I've cooked and baked in my free time.
+                            </p>
+                            <a href="cooking/index.html">View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End #directory -->
+
+        <div id="contact">
+            <h2>Contact</h2>
+            <div id="contact-form">
+                <form method="POST" action="https://formspree.io/simonzeng9@gmail.com">
+                    <input type="hidden" name="_subject" value="Contact from Website" />
+                    <input type="email" name="_replyto" placeholder="Your email" required>
+                    <textarea name="message" placeholder="Your message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+            <!-- End #contact-form -->
+        </div>
+        <!-- End #contact -->
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5 copyright">
                         <p>
-                            A page of all of the coding-related projects that I have worked on in the past, ranging from Android apps to language parsers to games. Projects that I am currently working on and will work on in the future are included as well.
+                            Copyright &copy; 2019 Simon Zeng
                         </p>
-                        <a href="coding/index.html">View</a>
                     </div>
-
-                </div>
-
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/index/speech.jpg" height=300px width=300px/>
+                    <div class="col-sm-2 top">
+                        <span id="to-top">
+                            <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                        </span>
                     </div>
-
-                    <div class="project-info">
-                        <h3>Academic Articles</h3>
-                        <p>
-                            A database of academic articles that I've read. They pertain to fields that I am interested in (Computational Linguistics, Natural Language Processing, etc), whether it be of foundational articles or more current ones. Links to them are included as well as summaries and my thoughts regarding them.
-                        </p>
-                        <a href="academia/index.html">View</a>
-                    </div>
-
-                </div>
-
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/index/cookingpic.JPG" height=300px width=300px/>
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Cooking & Baking</h3>
-                        <p>
-                            Recipes that I've used and loved as well as pictures of what I've cooked and baked in my free time.
-                        </p>
-                        <a href="cooking/index.html">View</a>
+                    <div class="col-sm-5 social">
+                        <ul>
+                            <li>
+                                <a href="https://github.com/szeng7" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/simon-zeng-b26462123/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/chefzeng/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                    <a href="https://medium.com/@simonzeng9" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </div>
+        </footer>
     </div>
-    <!-- End #directory -->
-
-    <div id="contact">
-        <h2>Contact</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/simonzeng9@gmail.com">
-                <input type="hidden" name="_subject" value="Contact from Website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-        <!-- End #contact-form -->
-    </div>
-    <!-- End #contact -->
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
-                    <p>
-                        Copyright &copy; 2019 Simon Zeng
-                    </p>
-                </div>
-                <div class="col-sm-2 top">
-                    <span id="to-top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </span>
-                </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/szeng7" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/simon-zeng-b26462123/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/chefzeng/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                                <a href="https://medium.com/@simonzeng9" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
     <!-- End footer -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

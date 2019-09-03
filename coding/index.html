@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-147004218-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-147004218-1');
+</script>
+
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Coding</title>
-	<link rel="shortcut icon" href="../logo.png" type="image/x-icon">
-	<link rel="icon" href="../logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../logo.png" type="image/x-icon">
+    <link rel="icon" href="../logo.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="../libs/font-awesome/css/font-awesome.min.css">
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -28,13 +42,13 @@
                 <a href="../index.html" class="no-scroll">Home</a>
             </li>
             <li>
-                    <a href="#skills">Skills</a>
+                <a href="#skills">Skills</a>
             </li>
             <li>
-                    <a href="#directory">WIP</a>
+                <a href="#directory">WIP</a>
             </li>
             <li>
-                    <a href="#directoryproject">Completed</a>
+                <a href="#directoryproject">Completed</a>
             </li>
             <li>
                 <a href="#contact">Contact</a>
@@ -88,40 +102,34 @@
             <div class="row">
 
                 <div class="project shadow-large">
-                        <div class="project-image">
-                            <img src="../images/coding/instagram.jpg" width=300px/>
-                        </div>
+                    <div class="project-image">
+                        <img src="../images/coding/instagram.jpg" width=300px/>
+                    </div>
 
-                        <div class="project-info">
-                            <h3>Instagram Caption Generator</h3>
-                            <p>
-                                This is a project to try and create a Instagram caption generator by training a neural network to associate phrases/captions
-                                with certain objects within the image provided. This process will involve web scraping (to get training data), some neural model
-                                to convert the images to a word description (image classification) and then a neural model to convert an image to an actual caption
-                                with an intermediary step of realizing what the image consists of.
-                            </p>
-                            <a href="https://github.com/szeng7/instagram-caption-generator" target="_blank">View</a>
-                        </div>
+                    <div class="project-info">
+                        <h3>Instagram Caption Generator</h3>
+                        <p>
+                            This is a project to try and create a Instagram caption generator by training a neural network to associate phrases/captions with certain objects within the image provided. This process will involve web scraping (to get training data), some neural model
+                            to convert the images to a word description (image classification) and then a neural model to convert an image to an actual caption with an intermediary step of realizing what the image consists of.
+                        </p>
+                        <a href="https://github.com/szeng7/instagram-caption-generator" target="_blank">View</a>
+                    </div>
 
                 </div>
 
                 <div class="project shadow-large">
-                        <div class="project-image">
-                            <img src="../images/coding/bilingualism.jpg" width=300px/>
-                        </div>
+                    <div class="project-image">
+                        <img src="../images/coding/bilingualism.jpg" width=300px/>
+                    </div>
 
-                        <div class="project-info">
-                            <h3>Bilingualism Transfer Learning</h3>
-                            <p>
-                                This projects explores the idea of bilingual speakers being better at language-related tasks
-                                (specifically novel word processing). It then tries to expand this to language-related tasks for
-                                neural models, which is done through transfer learning. A model will be trained on a
-                                novel word processing task in a more morphologically rich language (in this case, Finnish) before
-                                it is then trained and tested on another language (morphologically poorer, in this case,
-                                English).
-                            </p>
-                            <a href="https://github.com/szeng7/bilingualism-transfer-learning" target="_blank">View</a>
-                        </div>
+                    <div class="project-info">
+                        <h3>Bilingualism Transfer Learning</h3>
+                        <p>
+                            This projects explores the idea of bilingual speakers being better at language-related tasks (specifically novel word processing). It then tries to expand this to language-related tasks for neural models, which is done through transfer learning. A model
+                            will be trained on a novel word processing task in a more morphologically rich language (in this case, Finnish) before it is then trained and tested on another language (morphologically poorer, in this case, English).
+                        </p>
+                        <a href="https://github.com/szeng7/bilingualism-transfer-learning" target="_blank">View</a>
+                    </div>
 
                 </div>
 
@@ -133,17 +141,15 @@
                     <div class="project-info">
                         <h3>Spotify Music Recommender</h3>
                         <p>
-                            This project is inspired by <a href="https://www.avclub.com/heres-why-you-dont-like-new-music-any-more-1822926904"> research </a> that states that on average, an individual's music taste is developed
-                            between the ages of 11 and 16. Less formally, a sense of nostalgia brought by a song can
-                            sometimes influence someone to enjoy it. This means that by using someone's age, you
-                            should be able to set a baseline music taste from which you can use Spotify's music recommendation techniques on to find similar songs.
-                            These techniques, which I'll try to recreate include using convolutional neural architectures to
-                            learn audio features and text mining for sentiment terms to use for bucketing and describing certain songs.
+                            This project is inspired by <a href="https://www.avclub.com/heres-why-you-dont-like-new-music-any-more-1822926904"> research </a> that states that on average, an individual's music taste is developed between the ages of 11
+                            and 16. Less formally, a sense of nostalgia brought by a song can sometimes influence someone to enjoy it. This means that by using someone's age, you should be able to set a baseline music taste from which you can use Spotify's
+                            music recommendation techniques on to find similar songs. These techniques, which I'll try to recreate include using convolutional neural architectures to learn audio features and text mining for sentiment terms to use for
+                            bucketing and describing certain songs.
                         </p>
                         <!--<a href="https://github.com/szeng7/bilingualism-transfer-learning" target="_blank">View</a>-->
                     </div>
 
-            </div>
+                </div>
 
             </div>
         </div>
@@ -230,17 +236,17 @@
                 </div>
 
                 <div class="project shadow-large">
-                        <div class="project-image">
-                            <img src="../images/coding/battleship.png" width=300px/>
-                        </div>
+                    <div class="project-image">
+                        <img src="../images/coding/battleship.png" width=300px/>
+                    </div>
 
-                        <div class="project-info">
-                            <h3>Battleship</h3>
-                            <p>
-                                A C implementation of Battleship. One version uses a probabilistic approach for its firing algorithm while the other uses an educated scatter approach.
-                            </p>
-                            <a href="https://github.com/szeng7/Battleship" target="_blank">View</a>
-                        </div>
+                    <div class="project-info">
+                        <h3>Battleship</h3>
+                        <p>
+                            A C implementation of Battleship. One version uses a probabilistic approach for its firing algorithm while the other uses an educated scatter approach.
+                        </p>
+                        <a href="https://github.com/szeng7/Battleship" target="_blank">View</a>
+                    </div>
 
                 </div>
 
@@ -288,7 +294,7 @@
                             <a href="https://www.instagram.com/chefzeng/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                                <a href="https://medium.com/@simonzeng9" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a>
+                            <a href="https://medium.com/@simonzeng9" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>

@@ -17,7 +17,7 @@ import IncompletePage from "./pages/incomplete.jsx";
 class App extends Component {
     render() {
         return (
-            <Router basename="wip-website">
+            <Router basename="">
                 <Switch>
                     <Route exact path="/" component={MainPage} />
                     <Route exact path="/cooking" component={CookingPage} />

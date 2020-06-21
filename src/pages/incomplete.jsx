@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const IncompletePage = () => {
     return (
-        <div className="incomplete">
+        <div className="incomplete" style={{ height: "100vh" }}>
             <Container fluid className="mx-auto my-auto">
                 <Row className="mx-auto text-center">
                     <Col className="my-auto" style={{ paddingTop: "30vh" }}>

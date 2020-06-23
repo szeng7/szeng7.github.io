@@ -42,7 +42,7 @@ class ContactPage extends Component {
                 <Row>
                     <Col md={{ span: 8, offset: 2 }}>
                         <p className="contact-text text-center">
-                            Whether you have a question, opportunity or just
+                            Whether you have a question, opportunity, or just
                             want to chat, I’m always happy to connect! My social
                             media can be accessed through the icons.
                         </p>
@@ -110,7 +110,7 @@ class ContactPage extends Component {
                 <Row>
                     <Col md={{ span: 8, offset: 2 }}>
                         <p className="contact-text text-center">
-                            Whether you have a question, opportunity or just
+                            Whether you have a question, opportunity, or just
                             want to chat, I’m always happy to connect! My social
                             media can be accessed through the icons.
                         </p>
@@ -181,7 +181,7 @@ class ContactPage extends Component {
                     </div>
                     <Col md={{ span: 8, offset: 2 }}>
                         <p className="contact-text text-center">
-                            Whether you have a question, opportunity or just
+                            Whether you have a question, opportunity, or just
                             want to chat, I’m always happy to connect! My social
                             media can be accessed through the icons.
                         </p>
@@ -213,9 +213,10 @@ class ContactPage extends Component {
                     <Row>
                         <Col md={{ span: 8, offset: 2 }}>
                             <p className="contact-text text-center">
-                                Whether you have a question, opportunity or just
-                                want to chat, I’m always happy to connect! My
-                                social media can be accessed through the icons.
+                                Whether you have a question, opportunity, or
+                                just want to chat, I’m always happy to connect!
+                                My social media can be accessed through the
+                                icons.
                             </p>
                         </Col>
                     </Row>

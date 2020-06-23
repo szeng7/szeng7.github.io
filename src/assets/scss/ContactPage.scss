@@ -50,6 +50,13 @@
         margin-bottom: 10vh;
     }
 
+    .contact-icon-row > a {
+        &:hover {
+            opacity: 0.7;
+            transition: all 0.3s ease;
+        }
+    }
+
     .btn-email {
         background: #dfe3e8;
         color: #0b1d24;
@@ -128,6 +135,13 @@
     .contact-icon-row {
         width: 50vw;
         margin: 0 auto;
+    }
+
+    .contact-icon-row > a {
+        &:hover {
+            opacity: 0.7;
+            transition: all 0.3s ease;
+        }
     }
 
     .btn-email {

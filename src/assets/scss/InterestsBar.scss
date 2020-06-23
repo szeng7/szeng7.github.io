@@ -27,6 +27,23 @@
     color: #dfe3e8;
 }
 
+.interest-item-body:hover {
+    background-color: rgba(11, 29, 36, 0.75);
+}
+
+.interest-item-image-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: #008cba;
+}
+
 .interest-item-image-left {
     position: absolute;
     height: 80%;
@@ -136,8 +153,4 @@
 .interest-item-title-mobile {
     font-family: Poppins, sans-serif;
     font-size: calc(14px + (26 - 14) * ((100vw - 600px) / (1600 - 600)));
-}
-
-.interest-item-body:hover {
-    background-color: rgba(11, 29, 36, 0.75);
 }

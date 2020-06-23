@@ -71,7 +71,7 @@ const CodingPage = () => {
                 <Navbar>
                     <Nav.Link
                         className="custom-nav-link-coding d-flex align-items-center"
-                        href="./"
+                        href="./#interests"
                         style={{ textDecoration: "none" }}
                     >
                         <img

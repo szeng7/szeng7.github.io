@@ -60,14 +60,15 @@ const MainPage = () => {
                                     className="my-auto bio-container"
                                 >
                                     <p className="text-center">
-                                        Hi! I’m currently a software engineer at
-                                        Microsoft HQ in Redmond, Washington. My
-                                        academic and career interests primarily
-                                        revolve around Natural Language
-                                        Processing, specifically in human
-                                        language acquisition/computational
-                                        language models and machine translation.
-                                        Upon joining the industry, I’ve also
+                                        Hi, my name is Simon! I’m currently a
+                                        software engineer at Microsoft HQ in
+                                        Redmond, Washington. My academic and
+                                        career interests primarily revolve
+                                        around Natural Language Processing,
+                                        specifically in human language
+                                        acquisition/computational language
+                                        models and machine translation. Upon
+                                        joining the industry, I’ve also
                                         developed a particular affinity for
                                         cloud computing resources and tools.{" "}
                                     </p>
@@ -216,7 +217,7 @@ const timelineItems = [
         title: "Class of 2016",
         location: "Gilbert, AZ",
         description:
-            "At Mesquite, I was heavily involved with the AP program as well as the Speech and Debate team and Tennis team. This culminated in graduating as Salutatorian with multiple honors and awards, most notably the 2016 Arizona Interscholastic Asssociation Student of the Year award, a distinction given to one graduating senior in the entire state annually.",
+            "At Mesquite, I was involved with the AP program as well as the Speech and Debate team and Tennis team. This culminated in graduating as Salutatorian with multiple honors and awards, most notably the 2016 Arizona Interscholastic Asssociation Student of the Year award, a distinction given to one graduating senior in the entire state annually.",
         image: require("../assets/images/portfolio/mhs.png"),
         firstLinkPath: null,
         firstLinkText: null,

@@ -54,7 +54,7 @@ const CookingPage = () => {
                 <Navbar>
                     <Nav.Link
                         className="custom-nav-link-cooking d-flex align-items-center"
-                        href="./"
+                        href="./#interests"
                         style={{ textDecoration: "none" }}
                     >
                         <img
@@ -114,7 +114,7 @@ const CookingPage = () => {
                                 >
                                     <p className="text-center">
                                         My love of food was kindled from a young
-                                        age. Not only was I constantly gourged
+                                        age. Not only was I constantly gorged
                                         with food by my parents, but I fondly
                                         recall spending hours watching them cook
                                         and yearning for a early taste of what
@@ -144,11 +144,10 @@ const CookingPage = () => {
                                         enjoy with friends, something that has
                                         continued to this day. Currently, I’m
                                         deeply embedded in my fermentation phase
-                                        (thank Brad from Bon Appetit) and love
-                                        tinkering with recipes to fit my taste
-                                        and style. I occassionally post on my
-                                        food instagram, click here to take a
-                                        look!
+                                        (thank Brad Leone) and love tinkering
+                                        with recipes to fit my taste and style.
+                                        I occassionally post on my food
+                                        instagram, click here to take a look!
                                     </p>
                                 </Container>
                             </Col>

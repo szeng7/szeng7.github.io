@@ -13,7 +13,7 @@ const interestLinks = [
     {
         title: "Cooking & Baking",
         caption:
-            "Recipes that I’ve used and pictures of what I’ve cooked/baked in my free time.",
+            "Recipes that I’ve used and pictures of what I’ve cooked/baked in my free time",
         image: require("../images/portfolio/cooking.jpg"),
         link: "./cooking",
     },
@@ -62,6 +62,7 @@ class InterestsBar extends Component {
                                             className="interest-item-image-left"
                                             src={interestsItem.image}
                                         />
+
                                         <Col
                                             md={{
                                                 span: 11,

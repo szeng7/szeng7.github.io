@@ -29,19 +29,14 @@
 
 .interest-item-body:hover {
     background-color: rgba(11, 29, 36, 0.75);
-}
-
-.interest-item-image-overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: 0.5s ease;
-    background-color: #008cba;
+    .interest-item-image-left {
+        filter: blur(0.3px);
+        opacity: 0.97;
+    }
+    .interest-item-image-right {
+        filter: blur(0.3px);
+        opacity: 0.96;
+    }
 }
 
 .interest-item-image-left {

@@ -150,7 +150,7 @@ const timelineItems = [
         company: "Microsoft",
         title: "Software Engineer, August 2020 - Present",
         location: "Redmond, WA",
-        description: "Looking forward to seeing which team I join!",
+        description: "I am currently working on the Cloud Governance team where we create automated Azure solutions to enforce cloud configuration standards and reference architectures across enterprise software to improve the security posture of the applications and services that run Microsoft as a whole. My role is specifically in creating automations to enforce specific security standards, helping reduce vulnerabilities across the company and save manual engineering effort.",
         image: require("../assets/images/portfolio/microsoft.png"),
         firstLinkPath: null,
         firstLinkText: null,
